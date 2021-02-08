@@ -49,7 +49,7 @@
                     <!--镜像名，这里用工程名-->
                     <imageName>${project.artifactId}:${project.version}</imageName>
                     <!--DockerFile文件所在目录-->
-                    <dockerDirectory>src/main/docker</dockerDirectory>
+                    <dockerDirectory>./src/main/docker</dockerDirectory>
 
                     <!--构建镜像的配置信息-->
                     <resources>
